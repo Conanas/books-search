@@ -1,0 +1,21 @@
+.results-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.results-list li header {
+  padding-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.view-save-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.book-image {
+  float: left;
+  margin-right: 1em;
+}
