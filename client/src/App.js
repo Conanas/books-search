@@ -11,13 +11,11 @@ function App() {
       <Navbar />
       <Header />
       <main>
-        <div className="container">
-          <Router>
-            <Switch>
-              <Route exact path="/" component={SearchPage} />
-            </Switch>
-          </Router>
-        </div>
+        <Router>
+          <Switch>
+            <Route exact path="/" component={SearchPage} />
+          </Switch>
+        </Router>
       </main>
     </>
   );
