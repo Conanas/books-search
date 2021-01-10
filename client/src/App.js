@@ -1,16 +1,24 @@
-import React, { Component } from "react";
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Header from './components/Header';
+import SearchPage from './pages/Search-Page/';
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <div className="App-header">
-        <h2>Welcome to React</h2>
-      </div>
-      <p className="App-intro">
-        To get started, edit <code>src/App.js</code> and save to reload.
-      </p>
-    </div>
+    <>
+      <Header />
+      <main>
+        <div className="container">
+          <h1>Books Search</h1>
+          <Router>
+            <Switch>
+              <Route exact path="/" component={SearchPage} />
+            </Switch>
+          </Router>
+        </div>
+      </main>
+    </>
   );
 }
 
