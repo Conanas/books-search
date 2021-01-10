@@ -1,0 +1,9 @@
+.search-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-div {
+  display: flex;
+  justify-content: flex-end;
+}
