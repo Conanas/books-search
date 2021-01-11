@@ -1,0 +1,22 @@
+.list-header {
+  padding-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title-author {
+  display: flex;
+  flex-direction: column;
+}
+
+.view-save-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.book-image {
+  float: left;
+  margin-right: 1em;
+}
